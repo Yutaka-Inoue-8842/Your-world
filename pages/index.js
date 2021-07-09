@@ -31,7 +31,7 @@ export default function Home({ initPostList }) {
   return (
     <Layout>
       <div className={styles.header}>
-        <div className={styles.title}>Where in the world?</div>
+        <div className={styles.title}>Your world</div>
       </div>
       <div className='search'>
       <input type="text" value={name} onChange={(event) => handleName(event)}  placeholder="Search for a country..." className={styles.search_field}/>
