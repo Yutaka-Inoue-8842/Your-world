@@ -56,7 +56,7 @@ export default function Home({ initPostList }) {
             </div>
           )
         }):
-        <div className={styles.not_found}>NotFound</div>
+          <div className={styles.not_found}>NotFound</div>
         }
       </div>
     </Layout>
